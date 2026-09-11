@@ -1,0 +1,172 @@
+/* Style the whole page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* Style the header */
+header {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Style the main heading */
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Style navigation links */
+nav a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+/* Change navigation links when the mouse is over them */
+nav a:hover {
+    color: gold;
+}
+
+/* Style the main content */
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Style each section */
+section {
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style section headings */
+section h2 {
+    color: red;
+    border-bottom: 2px solid black;
+    padding-bottom: 8px;
+}
+
+#about {
+    text-align: center;
+}
+
+/* Style the About Me image */
+#about img {
+    display: block;
+    margin: 15px auto;
+    border-radius: 50%;
+    border: 4px solid red;
+}
+
+/* Style the pictures section */
+#pictures article {
+    text-align: center;
+}
+
+/* Style pictures */
+#pictures img {
+    margin: 15px;
+    border-radius: 8px;
+    border: 3px solid white ;
+}
+
+/* Add an effect when hovering over pictures */
+#pictures img:hover {
+    transform: scale(1.05);
+}
+
+/* Style picture descriptions */
+#pictures p {
+    font-style: italic;
+    color: black;
+}
+
+/* Style the contact form */
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Style form labels */
+label {
+    font-weight: bold;
+}
+
+/* Style text inputs */
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Style the button */
+button {
+    background-color: gold;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Change button color when hovered */
+button:hover {
+    background-color: red;
+}
+
+/* Style the footer */
+footer {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Make the website responsive on smaller screens */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 30px;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    #pictures img {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 15px;
+    }
+}
+

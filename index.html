@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Trip to Berlin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>My Trip to Berlin</h1>
+        <p>Join me and see some of my favorite pictures from my trip.</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#pictures">Pictures</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="images\IMG_1227.jpeg" alt="A photo representing me" width="200" height="200">
+            <p> Hello! I enjoy travelling, exloring new places, and learning about different cultures.
+              
+            </p>
+        </section>
+
+        <section id="pictures">
+            <h2>My Pictures</h2>
+
+            <button id="showDescriptions">Show Picture Descriptions</button>
+
+            <article>
+                <img src="images\IMG_1223.jpeg" alt="A photo from the top of the cathedral" width="200" height="200">
+                <p>A photo from the top of the cathedral.</p>
+
+                <img src="images\IMG_1202.jpeg" alt="A photo of an old church" width="200" height="200">
+                <p>A photo of an old church.</p>
+
+                <img src="images\IMG_1205.jpeg" alt="A photo of a beautiful street" width="200" height="200">
+                <p>A photo of a beautiful street.</p>
+
+                <img src="images\IMG_1201 (1).jpeg" alt="A photo of a historic building" width="200" height="200">
+                <p>A photo of a historic building.</p>
+            </article>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+
+                <br><br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+
+                <br><br>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; My Trip to Berlin</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
